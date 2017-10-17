@@ -4,7 +4,7 @@ import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 @Component({
   selector: 'app-main-content',
   templateUrl: './main-content.component.html',
-  styleUrls: ['./main-content.component.css'],
+  styleUrls: ['./main-content.component.scss'],
   providers: [NgbCarouselConfig]
 })
 export class MainContentComponent implements OnInit {
